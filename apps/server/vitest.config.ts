@@ -16,7 +16,7 @@ export default defineConfig(
   defineProject({
     test: {
       globals: true,
-      root: "./",
+      root: "./src",
     },
 
     plugins: [
