@@ -12,6 +12,7 @@
     "@nestjs/jwt": "^11.0.2",
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "catalog:",
+    "@types/express": "^5.0.6",
     "reflect-metadata": "catalog:",
     "rxjs": "catalog:"
   },
