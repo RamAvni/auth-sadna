@@ -12,8 +12,8 @@ catalog:
   '@nestjs/core': ^11.1.11
   '@nestjs/platform-express': ^11.1.11
   '@nestjs/schematics': ^11.0.9
-  '@swc/cli': ^0.7.9
-  '@swc/core': ^1.15.8
+  '@swc/cli': 0.7.9
+  '@swc/core': 1.15.8
   '@types/node': ^24.10.4
   '@types/react': ^19.2.7
   '@types/react-dom': ^19.2.3

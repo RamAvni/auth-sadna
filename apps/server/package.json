@@ -3,7 +3,8 @@
   "scripts": {
     "build": "nest build",
     "dev": "NODE_ENV=development nest start --watch",
-    "eslint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+    "eslint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "test": "vitest"
   },
   "dependencies": {
     "@nestjs/common": "catalog:",
@@ -17,10 +18,14 @@
     "@eslint/js": "catalog:",
     "@nestjs/cli": "catalog:",
     "@nestjs/schematics": "catalog:",
+    "@nestjs/testing": "^11.1.11",
     "@swc/cli": "catalog:",
     "@swc/core": "catalog:",
     "@types/node": "catalog:",
+    "@vitest/coverage-v8": "^4.0.16",
     "globals": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "unplugin-swc": "^1.5.9",
+    "vitest": "^4.0.16"
   }
 }
