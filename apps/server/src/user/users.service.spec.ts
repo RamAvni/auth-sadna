@@ -13,7 +13,13 @@ describe("UserService", () => {
     service = module.get<UsersService>(UsersService);
   });
 
-  it("should be defined", () => {
-    expect(service).toBeDefined();
+  it("should return an existing user by their username", () => {
+    const existingUser = "john";
+    expect(service.findOne(existingUser)).toBeDefined();
+  });
+
+  it("should not return a user when given a non-existing username", () => {
+    const nonExistingUser = "jake";
+    expect(service.findOne(nonExistingUser)).toBeUndefined();
   });
 });
