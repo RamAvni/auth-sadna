@@ -1,25 +1,16 @@
-I am tired of setups
+<h1 align="center">Auth Workshop</h1>
 
-Includes:
+<p align="center">
+Hello!
+</p>
 
-- Pnpm with catalog
-- React-Vite
-- Nest-JS
-- Turbo monorepo
-  - with a pipeline!
-- Husky and commitlint
-- Empty Packages directory
-- CSpell
-- Eternal happiness
+In preparation for working with `@hilma/auth` we are going to implement the basic basics of it ourselves!
 
-NOT included:
+We will do a follow-along of [NestJs' authentication tutorial](https://docs.nestjs.com/security/authentication)
+<hr />
 
-- CI/CD
+This repo acts as a basis for the tutorial, and will serve us in doing it.
+  
+Beyond the `server` for this workshop, pretty much nothing else is needed!
 
-- E2E library
-- Unit testing library
-
-- UI library
-- React-Router
-
-- CSS-addons (tailwind/scss)
+(Oh, fun, of course. Be sure to bring fun with you)
