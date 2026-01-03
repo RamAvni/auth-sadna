@@ -1,3 +1,5 @@
+// These tests serve just as an example, they really don't test much, and they aren't following proper property-based testing
+
 import { Test, TestingModule } from "@nestjs/testing";
 import { UsersService } from "./users.service";
 import { beforeEach, describe, expect, it } from "vitest";
