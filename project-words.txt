@@ -5,3 +5,5 @@ nodenext
 avni
 knip
 commitlint
+unplugin
+swcrc
